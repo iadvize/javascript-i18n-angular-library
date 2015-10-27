@@ -1,0 +1,30 @@
+{
+  "name": "javascript-i18n-angular-library",
+  "version": "0.1.0",
+  "description": "This angular library provides directives to manage i18n.",
+  "main": "javascript-i18n-angular-library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iadvize/javascript-i18n-angular-library.git"
+  },
+  "author": "PaGury",
+  "license": "iAdvize",
+  "bugs": {
+    "url": "https://github.com/iadvize/javascript-i18n-angular-library/issues"
+  },
+  "homepage": "https://github.com/iadvize/javascript-i18n-angular-library",
+  "dependencies": {
+    "javascript-i18n-library": "1.2.0"
+  },
+  "devDependencies": {
+    "angular": "^1.4.7",
+    "angular-mocks": "^1.4.7",
+    "jsdom": "^3.1.2",
+    "mocha": "2.3.3",
+    "moment": "^2.10.6",
+    "phantomjs": "^1.9.18"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec ./test/index.js"
+  }
+}
