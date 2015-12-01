@@ -1,3 +1,6 @@
+// Fix jsdom not providing Node global
+global.Node = {};
+global.Node.prototype = {};
 var jsdom = require('jsdom').jsdom;
 
 global.document = jsdom('<html><head><script></script></head><body></body></html>');
