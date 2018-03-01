@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/javascript-i18n-angular-library
     docker:
-      - image: circleci/node:9
+      - image: circleci/node:4
     steps:
       - checkout
       - run:
