@@ -29,7 +29,7 @@ require('javascript-i18n-angular-library')(angular);
 
 ### Directive
 
-#### ìdzTimeAgo
+#### idzTimeAgo
 
 Define a directive to set a timer
 
